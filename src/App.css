@@ -7,7 +7,7 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+@media (prefers-reduced-motion: no-preference){
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +35,28 @@
   to {
     transform: rotate(360deg);
   }
+}
+.products
+{
+  display: grid;
+  grid-template-columns: 1fr;
+  
+}
+.products img{
+  width: 50%;
+  height: 50%;
+  
+}
+.product
+{
+  padding: 40px;
+}
+header{
+  background-color: #61dafb;
+  height: 50px;
+  padding: 20px;
+}
+
+button{
+  padding: 20px;
 }
